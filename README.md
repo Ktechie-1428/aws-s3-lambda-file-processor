@@ -1,5 +1,15 @@
 # S3 File Processor – Serverless Rename Pipeline
 
+## 🚀 Highlights
+
+- Event-driven serverless architecture  
+- Triggered by S3 ObjectCreated events  
+- Uses Python AWS Lambda for file processing  
+- Implements IAM least-privilege role  
+- Automatically renames/moves files into `processed/`  
+- Includes CloudWatch logging for debugging  
+
+
 ## Overview
 This project is a simple serverless file-processing pipeline built on AWS.
 
